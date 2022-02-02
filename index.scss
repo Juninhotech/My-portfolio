@@ -1,0 +1,90 @@
+body{
+    // background-color: white;
+    background-color: #1D1D1D;
+}
+
+.togcol{
+    color: white;
+}
+
+
+@mixin navlista {
+    margin-left: 40px;
+    color: #A39E9E;
+    
+}
+
+.navlista{
+ @include navlista(); 
+}
+
+@mixin navlist {
+    font-family: "Roboto";
+    font-size: 1.25rem;
+    font-weight: normal;
+       
+}
+
+.navlist{
+    @include navlist();
+}
+
+
+// Hero section
+
+
+
+@mixin heroh1 {
+    font-family: "Montserrat Alternates";
+    font-size: 2.475rem;
+    color: white;
+    font-weight: bolder;
+    margin-left: 200px;
+    margin-top: 50px;
+    
+}
+
+
+.heroh1{
+    @include heroh1;
+}
+
+@mixin herop {
+    margin-left: 200px;
+    color: #B9B3B3
+
+    
+}
+.herop{
+    @include herop();
+}
+
+@mixin socialicons {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    margin-left: 300px;
+    
+}
+
+.bi {
+    margin: 5px;
+    color: #D91650;
+}
+
+.socialicons{
+    @include socialicons;
+}
+
+@mixin mypics {
+    width: 212px;
+    height: 270px;
+    
+}
+
+.mypics{
+    @include mypics();
+}
+.rowborder{
+   
+}

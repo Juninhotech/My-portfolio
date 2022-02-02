@@ -1,0 +1,52 @@
+body {
+  background-color: #1D1D1D;
+}
+
+.togcol {
+  color: white;
+}
+
+.navlista {
+  margin-left: 40px;
+  color: #A39E9E;
+}
+
+.navlist {
+  font-family: "Roboto";
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+.heroh1 {
+  font-family: "Montserrat Alternates";
+  font-size: 2.475rem;
+  color: white;
+  font-weight: bolder;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.herop {
+  margin-left: 200px;
+  color: #B9B3B3;
+}
+
+.bi {
+  margin: 5px;
+  color: #D91650;
+}
+
+.socialicons {
+  height: 30px;
+  width: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 300px;
+}
+
+.mypics {
+  width: 212px;
+  height: 270px;
+}
+/*# sourceMappingURL=index.css.map */

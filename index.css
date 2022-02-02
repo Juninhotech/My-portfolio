@@ -49,4 +49,10 @@ body {
   width: 212px;
   height: 270px;
 }
+
+.rowborder {
+  padding: 30px;
+  -webkit-box-shadow: 3px 3px 3px 3px black;
+          box-shadow: 3px 3px 3px 3px black;
+}
 /*# sourceMappingURL=index.css.map */

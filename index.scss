@@ -85,6 +85,14 @@ body{
 .mypics{
     @include mypics();
 }
+
+@mixin rowborder {
+    padding: 30px;
+    box-shadow: 3px 3px 3px 3px black;
+
+
+}
+
 .rowborder{
-   
+    @include rowborder();
 }

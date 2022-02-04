@@ -96,3 +96,66 @@ body{
 .rowborder{
     @include rowborder();
 }
+
+
+@mixin navi {
+    color: white;
+   
+    
+}
+.navi{
+    @include navi();
+}
+
+// download button
+
+@mixin dwnbtn {
+    width: 212px;
+    height: 50px;
+    border-color: #D91650;
+    color: #D91650;
+    font-size: 1rem;
+}
+
+.dwnbtn{
+    @include dwnbtn();
+}
+
+.dwnbtn :hover{
+    color: #D91650;
+}
+
+// About me section
+
+@mixin abt {
+    font-family: "Montserrat Alternates SemiBold";
+    font-size: 2.1875;
+    color: #D91650;
+    display: flex;
+    justify-content: center;
+}
+
+.abt{
+    @include abt();
+}
+
+@mixin abtp {
+    font-family: "Roboto";
+    color: #A39E9E;
+    font-size: 1.125rem;
+    line-height: 21px;
+    
+}
+
+.abtp{
+    @include abtp();
+}
+
+@mixin rowabt {
+    padding: 30px;
+    box-shadow: 3px 3px 3px 3px black;
+    
+}
+.rowabt{
+    @include rowabt();
+}

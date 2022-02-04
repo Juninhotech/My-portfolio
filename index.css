@@ -39,8 +39,6 @@ body {
 .socialicons {
   height: 30px;
   width: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-left: 300px;
 }
@@ -51,6 +49,56 @@ body {
 }
 
 .rowborder {
+  padding: 30px;
+  box-shadow: 3px 3px 3px 3px black;
+}
+
+.navi {
+  color: white;
+}
+
+.dwnbtn {
+  width: 212px;
+  height: 50px;
+  border-color: #D91650;
+  color: #D91650;
+  font-size: 1rem;
+}
+
+.dwnbtn :hover {
+  color: #D91650;
+}
+
+.abt {
+  font-family: "Montserrat Alternates SemiBold";
+  font-size: 2.1875;
+  color: #D91650;
+  display: flex;
+  justify-content: center;
+}
+
+.abtp {
+  font-family: "Roboto";
+  color: #A39E9E;
+  font-size: 1.125rem;
+  line-height: 21px;
+}
+
+.rowabt {
+  padding: 30px;
+  box-shadow: 3px 3px 3px 3px black;
+}
+/*# sourceMappingURL=index.css.map */: center;
+}
+
+.abtp {
+  font-family: "Roboto";
+  color: #A39E9E;
+  font-size: 1.125rem;
+  line-height: 21px;
+}
+
+.rowabt {
   padding: 30px;
   -webkit-box-shadow: 3px 3px 3px 3px black;
           box-shadow: 3px 3px 3px 3px black;

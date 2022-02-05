@@ -18,39 +18,38 @@ body {
 }
 
 .heroh1 {
-  font-family: "Montserrat Alternates";
+  font-family: "Montserrat Black";
   font-size: 2.475rem;
   color: white;
   font-weight: bolder;
-  margin-left: 200px;
-  margin-top: 50px;
 }
 
 .herop {
-  margin-left: 200px;
   color: #B9B3B3;
 }
 
 .bi {
-  margin: 5px;
+  margin: .5rem;
   color: #D91650;
 }
 
 .socialicons {
-  height: 30px;
-  width: 30px;
+  height: 1.875rem;
+  width: 1.875rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  margin-left: 300px;
 }
 
 .mypics {
-  width: 212px;
-  height: 270px;
+  width: 13.25rem;
+  height: 16.875rem;
 }
 
 .rowborder {
-  padding: 30px;
-  box-shadow: 3px 3px 3px 3px black;
+  padding: 5% 7%;
+  -webkit-box-shadow: 3px 3px 3px 3px black;
+          box-shadow: 3px 3px 3px 3px black;
 }
 
 .navi {
@@ -58,8 +57,8 @@ body {
 }
 
 .dwnbtn {
-  width: 212px;
-  height: 50px;
+  width: 13.25rem;
+  height: 3.125rem;
   border-color: #D91650;
   color: #D91650;
   font-size: 1rem;
@@ -70,37 +69,65 @@ body {
 }
 
 .abt {
-  font-family: "Montserrat Alternates SemiBold";
+  font-family: "Montserrat Black";
   font-size: 2.1875;
   color: #D91650;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .abtp {
-  font-family: "Roboto";
+  font-family: "Roboto Regular";
   color: #A39E9E;
   font-size: 1.125rem;
-  line-height: 21px;
 }
 
 .rowabt {
-  padding: 30px;
-  box-shadow: 3px 3px 3px 3px black;
-}
-/*# sourceMappingURL=index.css.map */: center;
-}
-
-.abtp {
-  font-family: "Roboto";
-  color: #A39E9E;
-  font-size: 1.125rem;
-  line-height: 21px;
-}
-
-.rowabt {
-  padding: 30px;
+  margin-top: 2%;
+  padding: 5% 7%;
   -webkit-box-shadow: 3px 3px 3px 3px black;
           box-shadow: 3px 3px 3px 3px black;
+}
+
+.tech-features {
+  padding: 5% 15%;
+}
+
+.techname {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+  color: #D91650;
+  font-family: "Montserrat Black";
+}
+
+.techicons {
+  text-align: center;
+}
+
+.techrow {
+  -webkit-box-shadow: 3px 3px 3px 3px black;
+          box-shadow: 3px 3px 3px 3px black;
+}
+
+.fa-6x {
+  color: grey;
+}
+
+.techrow {
+  padding: 5%;
+}
+
+.techh4 {
+  font-size: 1.1rem;
+  padding: 1%;
 }
 /*# sourceMappingURL=index.css.map */

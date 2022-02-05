@@ -35,13 +35,10 @@ body{
 
 
 @mixin heroh1 {
-    font-family: "Montserrat Alternates";
+    font-family: "Montserrat Black";
     font-size: 2.475rem;
     color: white;
     font-weight: bolder;
-    margin-left: 200px;
-    margin-top: 50px;
-    
 }
 
 
@@ -50,7 +47,7 @@ body{
 }
 
 @mixin herop {
-    margin-left: 200px;
+    // margin-left: 200px;
     color: #B9B3B3
 
     
@@ -60,15 +57,14 @@ body{
 }
 
 @mixin socialicons {
-    height: 30px;
-    width: 30px;
+    height: 1.875rem;
+    width: 1.875rem;
     display: flex;
-    margin-left: 300px;
     
 }
 
 .bi {
-    margin: 5px;
+    margin: .5rem;
     color: #D91650;
 }
 
@@ -77,8 +73,8 @@ body{
 }
 
 @mixin mypics {
-    width: 212px;
-    height: 270px;
+    width: 13.25rem;
+    height: 16.875rem;
     
 }
 
@@ -87,7 +83,7 @@ body{
 }
 
 @mixin rowborder {
-    padding: 30px;
+    padding: 5% 7%;
     box-shadow: 3px 3px 3px 3px black;
 
 
@@ -110,8 +106,8 @@ body{
 // download button
 
 @mixin dwnbtn {
-    width: 212px;
-    height: 50px;
+    width: 13.25rem;
+    height: 3.125rem;
     border-color: #D91650;
     color: #D91650;
     font-size: 1rem;
@@ -128,7 +124,7 @@ body{
 // About me section
 
 @mixin abt {
-    font-family: "Montserrat Alternates SemiBold";
+    font-family: "Montserrat Black";
     font-size: 2.1875;
     color: #D91650;
     display: flex;
@@ -140,10 +136,10 @@ body{
 }
 
 @mixin abtp {
-    font-family: "Roboto";
+    font-family: "Roboto Regular";
     color: #A39E9E;
     font-size: 1.125rem;
-    line-height: 21px;
+    
     
 }
 
@@ -152,10 +148,65 @@ body{
 }
 
 @mixin rowabt {
-    padding: 30px;
+    margin-top: 2%;
+    padding: 5% 7%;
     box-shadow: 3px 3px 3px 3px black;
     
 }
 .rowabt{
     @include rowabt();
 }
+
+// Tech and dev section
+
+@mixin tech-features {
+    padding: 5% 15%;
+}
+
+.tech-features{
+    @include tech-features();
+}
+
+@mixin techname {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: #D91650;
+    font-family: "Montserrat Black";
+ 
+}
+
+.techname{
+    @include techname();
+}
+
+.techicons{
+    text-align: center;
+}
+.techrow{
+    box-shadow: 3px 3px 3px 3px black;
+
+}
+
+@mixin fa-6x {
+    color: grey;
+    
+}
+.fa-6x{
+    @include fa-6x();
+}
+
+.techrow{
+    padding: 5%;
+
+}
+
+@mixin techh4 {
+    font-size: 1.1rem;
+    padding: 1%;
+}
+.techh4{
+    @include techh4();
+    
+}
+    

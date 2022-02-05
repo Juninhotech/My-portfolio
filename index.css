@@ -48,8 +48,8 @@ body {
 
 .rowborder {
   padding: 5% 7%;
-  -webkit-box-shadow: 3px 3px 3px 3px black;
-          box-shadow: 3px 3px 3px 3px black;
+  -webkit-box-shadow: 2px 2px 2px 2px black;
+          box-shadow: 2px 2px 2px 2px black;
 }
 
 .navi {
@@ -69,7 +69,7 @@ body {
 }
 
 .abt {
-  font-family: "Montserrat Black";
+  font-family: "Montserrat";
   font-size: 2.1875;
   color: #D91650;
   display: -webkit-box;
@@ -81,7 +81,7 @@ body {
 }
 
 .abtp {
-  font-family: "Roboto Regular";
+  font-family: "Roboto";
   color: #A39E9E;
   font-size: 1.125rem;
 }
@@ -89,8 +89,8 @@ body {
 .rowabt {
   margin-top: 2%;
   padding: 5% 7%;
-  -webkit-box-shadow: 3px 3px 3px 3px black;
-          box-shadow: 3px 3px 3px 3px black;
+  -webkit-box-shadow: 2px 2px 2px 2px black;
+          box-shadow: 2px 2px 2px 2px black;
 }
 
 .tech-features {
@@ -106,7 +106,7 @@ body {
           justify-content: center;
   margin-bottom: 1rem;
   color: #D91650;
-  font-family: "Montserrat Black";
+  font-family: "Montserrat";
 }
 
 .techicons {
@@ -114,8 +114,8 @@ body {
 }
 
 .techrow {
-  -webkit-box-shadow: 3px 3px 3px 3px black;
-          box-shadow: 3px 3px 3px 3px black;
+  -webkit-box-shadow: 2px 2px 2px 2px black;
+          box-shadow: 2px 2px 2px 2px black;
 }
 
 .fa-6x {
@@ -129,5 +129,23 @@ body {
 .techh4 {
   font-size: 1.1rem;
   padding: 1%;
+}
+
+.educate {
+  font-family: "Montserrat";
+  font-size: 2.1875;
+  color: #D91650;
+}
+
+.rotech {
+  text-align: center;
+  -webkit-box-shadow: 2px 2px 2px 2px black;
+          box-shadow: 2px 2px 2px 2px black;
+}
+
+.edp {
+  font-size: 0.75rem;
+  color: #A39E9E;
+  font-family: "Roboto";
 }
 /*# sourceMappingURL=index.css.map */

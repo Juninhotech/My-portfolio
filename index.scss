@@ -84,7 +84,7 @@ body{
 
 @mixin rowborder {
     padding: 5% 7%;
-    box-shadow: 3px 3px 3px 3px black;
+    box-shadow: 2px 2px 2px 2px black;
 
 
 }
@@ -124,7 +124,7 @@ body{
 // About me section
 
 @mixin abt {
-    font-family: "Montserrat Black";
+    font-family: "Montserrat";
     font-size: 2.1875;
     color: #D91650;
     display: flex;
@@ -136,7 +136,7 @@ body{
 }
 
 @mixin abtp {
-    font-family: "Roboto Regular";
+    font-family: "Roboto";
     color: #A39E9E;
     font-size: 1.125rem;
     
@@ -150,7 +150,7 @@ body{
 @mixin rowabt {
     margin-top: 2%;
     padding: 5% 7%;
-    box-shadow: 3px 3px 3px 3px black;
+    box-shadow: 2px 2px 2px 2px black;
     
 }
 .rowabt{
@@ -172,7 +172,7 @@ body{
     justify-content: center;
     margin-bottom: 1rem;
     color: #D91650;
-    font-family: "Montserrat Black";
+    font-family: "Montserrat";
  
 }
 
@@ -184,7 +184,7 @@ body{
     text-align: center;
 }
 .techrow{
-    box-shadow: 3px 3px 3px 3px black;
+    box-shadow: 2px 2px 2px 2px black;
 
 }
 
@@ -208,5 +208,37 @@ body{
 .techh4{
     @include techh4();
     
+}
+
+// Education section
+
+@mixin educate {
+    font-family: "Montserrat";
+    font-size: 2.1875;
+    color: #D91650;
+}
+
+.educate{
+    @include educate();
+}
+
+@mixin rotech {
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+.rotech{
+    @include rotech();
+}
+
+@mixin edp {
+    font-size: 0.75rem;
+    color: #A39E9E;
+    font-family: "Roboto";
+    
+}
+
+.edp{
+    @include edp();
 }
     

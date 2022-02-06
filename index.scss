@@ -10,12 +10,19 @@ body{
 
 @mixin navlista {
     margin-left: 40px;
-    color: #A39E9E;
+    color: #A39E9E !important;
     
+}
+.navi{
+    color: #A39E9E !important;
 }
 
 .navlista{
  @include navlista(); 
+}
+
+.navbgrd{
+    background-color: #D91650 !important;
 }
 
 @mixin navlist {
@@ -235,10 +242,79 @@ body{
     font-size: 0.75rem;
     color: #A39E9E;
     font-family: "Roboto";
+
     
 }
 
 .edp{
     @include edp();
 }
+
+
+// My works section
+
+@mixin wrkcol {
+    margin-bottom: 1.25rem;
+    text-align: center;
+    padding: 2%;
     
+}
+
+@mixin mwrk {
+    
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 2.1875;
+    color: #D91650;
+}
+.mwrk{
+    @include mwrk();
+
+}
+
+@mixin wrkrow {
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.wrkrow{
+    @include wrkrow();
+
+ 
+}
+
+.wrkcol{
+ @include wrkcol();   
+
+}
+
+.card{
+    border: 2px solid #D91650;
+    
+}
+
+
+@mixin ptxx {
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    color: #A39E9E;
+    padding: 0 10px 0 10px;    
+}
+
+.ptxx {
+    @include ptxx();
+    
+}
+
+@mixin btnview {
+    background-color: #D91650 !important;
+    border: none;
+    outline: none;
+}
+
+.btnview{
+    @include btnview();
+   
+}
+.btnview:hover{
+    background-color: #57061E !important;
+}

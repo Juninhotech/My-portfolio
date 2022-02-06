@@ -6,9 +6,17 @@ body {
   color: white;
 }
 
+.navi {
+  color: #A39E9E !important;
+}
+
 .navlista {
   margin-left: 40px;
-  color: #A39E9E;
+  color: #A39E9E !important;
+}
+
+.navbgrd {
+  background-color: #D91650 !important;
 }
 
 .navlist {
@@ -147,5 +155,44 @@ body {
   font-size: 0.75rem;
   color: #A39E9E;
   font-family: "Roboto";
+}
+
+.mwrk {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 2.1875;
+  color: #D91650;
+}
+
+.wrkrow {
+  -webkit-box-shadow: 2px 2px 2px 2px black;
+          box-shadow: 2px 2px 2px 2px black;
+}
+
+.wrkcol {
+  margin-bottom: 1.25rem;
+  text-align: center;
+  padding: 2%;
+}
+
+.card {
+  border: 2px solid #D91650;
+}
+
+.ptxx {
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  color: #A39E9E;
+  padding: 0 10px 0 10px;
+}
+
+.btnview {
+  background-color: #D91650 !important;
+  border: none;
+  outline: none;
+}
+
+.btnview:hover {
+  background-color: #57061E !important;
 }
 /*# sourceMappingURL=index.css.map */

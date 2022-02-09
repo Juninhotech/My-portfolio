@@ -320,3 +320,42 @@ body{
 .btnview:hover{
     background-color: #57061E !important;
 }
+
+
+@mixin getintbutton {
+    font-family: "Montserrat Black";
+    font-size: 0.875rem;
+    color: white;
+    background-color: #D91650 !important;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+.getintbutton:hover{
+    background-color: #57061E !important;
+}
+
+.getintbutton{
+    @include getintbutton();
+}
+
+
+.getintbt{
+    padding: 50px 0 60px 0;
+}
+
+
+@mixin footer {
+    text-align: center;
+    color: #A39E9E;
+    padding: 50px;
+    background-color: #585656;
+    
+}
+
+footer{
+    @include footer();
+}

@@ -1,6 +1,7 @@
 body{
     // background-color: white;
     background-color: #1D1D1D;
+    position: relative;
 }
 
 .togcol{
@@ -13,21 +14,32 @@ body{
     color: #A39E9E !important;
     
 }
+
 .navi{
-    color: #A39E9E !important;
+    color: #ffffff !important;
 }
 
 .navlista{
  @include navlista(); 
 }
 
-.navbgrd{
-    background-color: #D91650 !important;
+@media(max-width: 750px){
+    .bgcolap{
+        background-color: #130912;
+    }
 }
 
+@media (max-width: 750px){
+    .rowborder{
+        text-align: center;
+    }
+}
+
+
+
 @mixin navlist {
-    font-family: "Roboto";
-    font-size: 1.25rem;
+    font-family: "montserrat";
+    font-size: 1.03rem;
     font-weight: normal;
        
 }
@@ -42,8 +54,8 @@ body{
 
 
 @mixin heroh1 {
-    font-family: "Montserrat Black";
-    font-size: 2.475rem;
+    font-family: "Montserrat";
+    font-size: 3.8rem;
     color: white;
     font-weight: bolder;
 }
@@ -70,9 +82,10 @@ body{
     
 }
 
-.bi {
-    margin: .5rem;
-    color: #D91650;
+.fddf {
+    margin-bottom: 30px !important;
+    padding-left: 20px;
+    color: grey;
 }
 
 .socialicons{

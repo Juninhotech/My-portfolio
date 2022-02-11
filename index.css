@@ -1,5 +1,6 @@
 body {
   background-color: #1D1D1D;
+  position: relative;
 }
 
 .togcol {
@@ -7,7 +8,7 @@ body {
 }
 
 .navi {
-  color: #A39E9E !important;
+  color: #ffffff !important;
 }
 
 .navlista {
@@ -15,19 +16,25 @@ body {
   color: #A39E9E !important;
 }
 
-.navbgrd {
-  background-color: #D91650 !important;
+@media (max-width: 750px) {
+  .bgcolap {
+    background-color: #130912;
+  }
 }
-
+@media (max-width: 750px) {
+  .rowborder {
+    text-align: center;
+  }
+}
 .navlist {
-  font-family: "Roboto";
-  font-size: 1.25rem;
+  font-family: "montserrat";
+  font-size: 1.03rem;
   font-weight: normal;
 }
 
 .heroh1 {
-  font-family: "Montserrat Black";
-  font-size: 2.475rem;
+  font-family: "Montserrat";
+  font-size: 3.8rem;
   color: white;
   font-weight: bolder;
 }
@@ -36,16 +43,15 @@ body {
   color: #B9B3B3;
 }
 
-.bi {
-  margin: .5rem;
-  color: #D91650;
+.fddf {
+  margin-bottom: 30px !important;
+  padding-left: 20px;
+  color: grey;
 }
 
 .socialicons {
   height: 1.875rem;
   width: 1.875rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -56,8 +62,7 @@ body {
 
 .rowborder {
   padding: 5% 7%;
-  -webkit-box-shadow: 2px 2px 2px 2px black;
-          box-shadow: 2px 2px 2px 2px black;
+  box-shadow: 2px 2px 2px 2px black;
 }
 
 .navi {
@@ -80,12 +85,8 @@ body {
   font-family: "Montserrat";
   font-size: 2.1875;
   color: #D91650;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .abtp {
@@ -97,8 +98,7 @@ body {
 .rowabt {
   margin-top: 2%;
   padding: 5% 7%;
-  -webkit-box-shadow: 2px 2px 2px 2px black;
-          box-shadow: 2px 2px 2px 2px black;
+  box-shadow: 2px 2px 2px 2px black;
 }
 
 .tech-features {
@@ -106,12 +106,8 @@ body {
 }
 
 .techname {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-bottom: 1rem;
   color: #D91650;
   font-family: "Montserrat";
@@ -122,8 +118,7 @@ body {
 }
 
 .techrow {
-  -webkit-box-shadow: 2px 2px 2px 2px black;
-          box-shadow: 2px 2px 2px 2px black;
+  box-shadow: 2px 2px 2px 2px black;
 }
 
 .fa-6x {
@@ -148,8 +143,7 @@ body {
 
 .rotech {
   text-align: center;
-  -webkit-box-shadow: 2px 2px 2px 2px black;
-          box-shadow: 2px 2px 2px 2px black;
+  box-shadow: 2px 2px 2px 2px black;
 }
 
 .edp {
@@ -167,8 +161,7 @@ body {
 }
 
 .wrkrow {
-  -webkit-box-shadow: 2px 2px 2px 2px black;
-          box-shadow: 2px 2px 2px 2px black;
+  box-shadow: 2px 2px 2px 2px black;
 }
 
 .wrkcol {

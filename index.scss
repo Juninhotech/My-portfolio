@@ -17,22 +17,34 @@ body{
 
 .navi{
     color: #ffffff !important;
+    margin-right: 20px;
 }
 
 .navlista{
  @include navlista(); 
 }
 
-@media(max-width: 750px){
+@media(max-width: 820px){
     .bgcolap{
         background-color: #130912;
     }
 }
 
-@media (max-width: 750px){
+@media(max-width: 820px){
+    .nnb{
+        background-color: #130912;
+    }
+}
+
+@media (max-width: 820px){
     .rowborder{
         text-align: center;
     }
+}
+
+.navhover:hover{
+    color: #D91650 !important;
+    display: block;
 }
 
 
@@ -336,7 +348,7 @@ body{
 
 
 @mixin getintbutton {
-    font-family: "Montserrat Black";
+    font-family: "Montserrat";
     font-size: 0.875rem;
     color: white;
     background-color: #D91650 !important;
@@ -372,3 +384,21 @@ body{
 footer{
     @include footer();
 }
+
+@mixin a{
+    text-decoration: none;
+}
+
+a{
+    @include a();
+}
+
+@media(max-width: 820px){
+    .container{
+        text-align: center;
+    }
+}
+
+// .mypics{
+//     border-radius: 50%;
+// }

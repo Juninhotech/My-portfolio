@@ -225,7 +225,7 @@ body {
 footer {
   text-align: center;
   color: #A39E9E;
-  padding: 50px;
+  padding: 20px;
   background-color: #585656;
 }
 
@@ -237,5 +237,17 @@ a {
   .container {
     text-align: center;
   }
+}
+.arrow-up {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  text-align: right;
+}
+.arrow-up .faaa {
+  color: #D91650 !important;
+}
+.arrow-up .faaa:hover {
+  color: yellow !important;
 }
 /*# sourceMappingURL=index.css.map */

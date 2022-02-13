@@ -18,13 +18,10 @@ body {
 }
 
 @media (max-width: 820px) {
-  .bgcolap {
+  .navul {
     background-color: #130912;
-  }
-}
-@media (max-width: 820px) {
-  .nnb {
-    background-color: #130912;
+    height: 40rem;
+    position: relative;
   }
 }
 @media (max-width: 820px) {

@@ -21,3 +21,7 @@
 # Credits
         @Juninhotech
         @ProfGreatWonder
+
+# Note
+---
+>>Kindly note that some icons on the figma were replace during coding for some personal reasons.

@@ -16,7 +16,7 @@
 
 ---
 # Links
-[GIthub](https://github.com/Juninhotech) [Figma](https://www.figma.com/proto/gieP591UAWKXEt1q9f6DbH/Untitled?node-id=71%3A16&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=71%3A16&show-proto-sidebar=1)
+[GIthub](https://github.com/Juninhotech) [Figma](https://www.figma.com/proto/gieP591UAWKXEt1q9f6DbH/Untitled?node-id=71%3A16&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=71%3A154&show-proto-sidebar=1)
 ---
 # Credits
         @Juninhotech
